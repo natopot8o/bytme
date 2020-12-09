@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="byteme-natopot8o", # Replace with your own username
-    version="0.0.1",
+    name="bytme",
+    version="0.0.2",
     author="Nathan Murfey",
     author_email="murfey.nathan@gmail.com",
     description="for understanding pesky bytes",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.9',
+    python_requires='>=3.8',
 )
